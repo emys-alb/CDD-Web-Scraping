@@ -165,7 +165,7 @@ class DeputadasSpider(scrapy.Spider):
 
         yield {
             'nome': nome,
-            'genero': 'M', 
+            'genero': 'F', 
             'presença_plenario': presença_plenario, 
             'ausencia_plenario': ausencia_plenario,
             'ausencia_justificada_plenario': ausencia_justificada_plenario, 
